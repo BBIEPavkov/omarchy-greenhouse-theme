@@ -19,8 +19,8 @@
   --text-title-h2: #8FB262;
   --text-title-h3: #D4B062;
   --text-title-h4: #7E9EAA;
-  --text-title-h5: #C08AA0;
-  --text-title-h6: #C08AA0;
+  --text-title-h5: #D98FA8;
+  --text-title-h6: #D98FA8;
 
   /* Links and accents */
   --text-link: #7E9EAA;
@@ -100,33 +100,33 @@
 
 /* Greenhouse touches */
 .theme-dark, .theme-light {
-  --text-highlight-bg: rgba(127, 168, 106, 0.3);
+  --text-highlight-bg: rgba(217, 143, 168, 0.3);
   --checkbox-color: #7FA86A;
   --checkbox-color-hover: #8FB262;
 }
 
-/* Leaves for bullet points, in reading and editing views */
+/* Blossoms for bullet points, in reading and editing views */
 .markdown-rendered ul > li::marker {
-  content: "❧  ";
-  color: #7FA86A;
+  content: "✿  ";
+  color: #D98FA8;
 }
 
 .list-bullet::after {
-  content: "❧";
+  content: "✿";
   background: none;
   width: auto;
   height: auto;
-  color: #7FA86A;
+  color: #D98FA8;
   font-size: 0.9em;
 }
 
-/* A sprout before each top-level heading */
+/* A blossom before each top-level heading */
 .markdown-rendered h1::before,
 .HyperMD-header-1 .cm-header-1:first-of-type::before {
-  content: "🌱 ";
+  content: "🌸 ";
 }
 
-/* Divider lines become a row of leaves */
+/* Divider lines become leaves and blossoms */
 .markdown-rendered hr {
   border: none;
   text-align: center;
@@ -134,7 +134,7 @@
 }
 
 .markdown-rendered hr::after {
-  content: "❧  ❧  ❧";
-  color: #8FB262;
+  content: "❧  ✿  ❧";
+  color: #D98FA8;
   letter-spacing: 0.5em;
 }

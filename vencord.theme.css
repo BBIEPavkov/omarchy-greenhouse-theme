@@ -35,8 +35,8 @@
   --background-modifier-active: rgba(127, 168, 106, 0.14);
   --background-modifier-selected: rgba(127, 168, 106, 0.2);
   --background-modifier-accent: rgba(214, 216, 196, 0.1);
-  --background-mentioned: rgba(212, 176, 98, 0.12);
-  --background-mentioned-hover: rgba(212, 176, 98, 0.18);
+  --background-mentioned: rgba(217, 143, 168, 0.12);
+  --background-mentioned-hover: rgba(217, 143, 168, 0.18);
 
   /* Text */
   --text-normal: #D6D8C4;
@@ -58,8 +58,8 @@
   --button-filled-brand-background: #5E8A4C;
   --button-filled-brand-background-hover: #6A9257;
   --control-brand-foreground: #7FA86A;
-  --mention-foreground: #D4B062;
-  --mention-background: rgba(212, 176, 98, 0.2);
+  --mention-foreground: #EAB0C2;
+  --mention-background: rgba(217, 143, 168, 0.2);
 
   /* Status colors: pothos for good, terracotta for danger */
   --status-positive: #8FB262;
