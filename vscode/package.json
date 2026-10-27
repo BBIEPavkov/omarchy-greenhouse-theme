@@ -1,0 +1,20 @@
+{
+  "name": "omarchy-greenhouse-theme",
+  "displayName": "Omarchy Greenhouse Theme",
+  "description": "A houseplant theme tuned to match the Omarchy Greenhouse desktop theme.",
+  "version": "1.0.0",
+  "publisher": "emilypavkov",
+  "engines": {
+    "vscode": "^1.82.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Omarchy Greenhouse",
+        "uiTheme": "vs-dark",
+        "path": "./themes/omarchy-greenhouse-color-theme.json"
+      }
+    ]
+  }
+}

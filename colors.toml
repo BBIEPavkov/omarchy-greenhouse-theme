@@ -1,0 +1,32 @@
+mode = "dark"
+
+# Night jungle: leaf shade backgrounds, pothos and monstera greens, terracotta pots.
+accent = "#7FA86A"
+selection = "#47563F"
+muted = "#5C6B58"
+
+background = "#2A3427"
+dark_background = "#232C21"
+darker_background = "#1D251B"
+lighter_background = "#323E2F"
+
+foreground = "#D6D8C4"
+dark_foreground = "#8E9A86"
+light_foreground = "#C3C9B2"
+bright_foreground = "#EAE8D8"
+
+red = "#C9714F"
+yellow = "#D4B062"
+orange = "#D38B5D"
+green = "#8FB262"
+cyan = "#6FA893"
+blue = "#7E9EAA"
+magenta = "#C08AA0"
+brown = "#8A6A4A"
+
+bright_red = "#DA8A6A"
+bright_yellow = "#E2C67E"
+bright_green = "#B5CC7A"
+bright_cyan = "#94C2AE"
+bright_blue = "#9DB8C2"
+bright_magenta = "#D3A3B6"
